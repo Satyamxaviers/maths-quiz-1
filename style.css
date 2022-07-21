@@ -1,17 +1,39 @@
 body {
-    color: black;
-    text-align: center;
-    font-family:Glyphs;
-    background-color: magenta;
-    background-image: linear-gradient(red, yellow);
-    }
-    
-    img {
-    width: 500px;
-    margin: 25px;
-    height: 500px;
-    }
-    
-    
-    
-    
+    text-align:center
+  }
+  #head{
+    font-family:Comic Sans Ms;
+    font-variant: small-caps;
+  }
+  #p1{
+    font-family: Comic Sans Ms;
+    font-size: 25px;
+  }
+  #p2{
+    font-family: Comic Sans Ms;
+    font-size: 25px;
+  }
+  h2{
+    font-family: Comic Sans Ms;
+    font-size: 25px;
+  }
+  h3{
+    font-family: Comic Sans Ms;
+    font-size: 25px;
+  }
+  h4{
+    font-family: Comic Sans Ms;
+    font-size: 25px;
+  }
+  h5{
+    font-family: Comic Sans Ms;
+    font-size: 25px;
+  }
+  #image{
+    width: 100%
+  }
+  
+  h1 {
+    font-family:Comic Sans Ms;
+    font-size:40px
+  }
