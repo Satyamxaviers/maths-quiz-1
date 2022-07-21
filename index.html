@@ -1,29 +1,54 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Activity 1</title>
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-</head>
-<body>
+    <head>
+        
+        <link rel="stylesheet" href="math.css">
+        <script src="quiz.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
 
-	<div class="container">
-		<h1 style="text-align: center;">Activity 1</h1>
+    <body>
 
-		<button class="btn btn-warning">Update the score</button>
-		<br>
-		<br>
+        <h3 id="player1_name">Player 1 Name</h3> <span id="player1_score">Player 1 Score</span>
 
-		<button class="btn btn-success">Save score</button>
-		<br>
-		<br>
+        <h3 id="player2_name">Player 2 Name</h3> <span id="player2_score">Player 2 Score</span>
 
-		<button class="btn">Next page</button>
-	</div>
-	
-<script src="activity1.js"></script>
-</body>
+        <div class="container">
+
+            <center>
+
+                <h2 style="color:white;">THE MATH QUIZ GAME!</h2>
+
+                <h3 id="player_question">Player Who Asks</h3>
+
+                <h3 id="player_answer">Player Who Answers</h3>
+
+                <div id="output"></div>
+
+                <br><br>
+
+                <label class="noteL">Enter Number 1</label>
+
+                <input type="number" id="number1" class="form-control" placeholder="Enter The First Number">
+
+                <br>
+
+                <label class="noteL">Enter Number 2</label>
+
+                <input type="number" id="number2" class="form-control" placeholder="Enter The Second Number">
+
+                <br>
+
+                <button type="button" id="send" class="btn btn-outline-light text-primary" onclick="send();" style="width:30%;">Send Question</button>
+
+            </center>
+
+        </div>
+
+    </body>
+
 </html>
